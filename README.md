@@ -1,3 +1,3 @@
-# gmail-clone
+# Gmail klonu
 
-HTML, CSS Gmail klonu.
+- HTML, CSS
