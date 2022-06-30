@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="tr">
 <head>
@@ -5,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> -->
     <link rel="stylesheet" href="style/style.css">
     <!-- <link rel="stylesheet" href="gmail.css"> -->
     <title>Gmail Klonu</title>
@@ -311,4 +312,318 @@
     </div>
 
 </body>
+=======
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="gmail.css">
+    <title>Gmail Klonu</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <!-- Üst -->
+        <header>
+            <!-- Üst menü logo bölümü -->
+            <div class="logo">
+                <i class="material-icons md-18 menu-icon">menu</i>
+                <img class="gmail-logo" src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_default_2x_r2.png" alt="Gmail Logo">
+            </div>
+
+            <!-- Üst menü sağ taraf -->
+            <div class="top-right">
+                <!-- Arama kutusu -->
+                <div class="search">
+                    <div class="search-icons">
+                        <i class="material-icons md-18 menu-icon icon-baslangic">search</i>
+                        <i class="material-icons md-18 menu-icon icon-son">arrow_drop_down</i>
+                        <input type="text" class="searchbox" placeholder="Postalarda arayın">
+                    </div>
+                </div>
+                <!-- Ayarlar -->
+                <div class="settings">
+                    <i class="material-icons md-18 menu-icon">help_outline</i>
+                    <i class="material-icons md-18 menu-icon">settings</i>
+                    <i class="material-icons md-18 menu-icon">apps</i>
+                    <img class="user-photo" src="https://lh3.googleusercontent.com/ogw/ADGmqu9BID1ugWZeYuAcoFP7SVsdUq9Vqb4noLxz02vRvg=s64-c-mo" alt="">
+                </div>
+            </div>
+        </header>
+
+        <!-- Sol menü -->
+        <aside>
+            <div class="buton-buyuk">
+                <i class="material-icons md-18 menu-icon-arti">add</i>
+                <button class="olustur">Oluştur</button>
+            </div>
+
+            <div class="menu-item active"><i class="material-icons md-18 menu-icon" style="color:#d93025">inbox</i>Gelen Kutusu<span class="right">3</span></div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">watch_later</i>Ertelenenler</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">label_important</i>Önemli</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">chat</i>Sohbetler</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">send</i>Gönderilmiş Postalar</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">description</i>Taslaklar</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">report</i>Spam</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">delete</i>Çöp Kutusu</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">label</i>Kategoriler</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">star</i>Yıldızlı</div>
+            <!-- 
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">schedule_send</i>Zamanlanmış</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">mail</i>Tüm Postalar</div>
+            -->
+
+            <div class="alt-cizgi"></div>
+
+            <div class="menu-kategori-baslik">Meet</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">videocam</i>Yeni toplantı</div>
+            <div class="menu-item"><i class="material-icons md-18 menu-icon">keyboard</i>Toplantıya katıl</div>
+
+            <div class="alt-cizgi"></div>
+
+            <div class="menu-kategori-baslik">Hangouts</div>
+
+            <div class="hangouts-user">
+                
+                    <div class="online"></div>
+                    <img class="user-photo" src="https://lh3.googleusercontent.com/ogw/ADGmqu9BID1ugWZeYuAcoFP7SVsdUq9Vqb4noLxz02vRvg=s64-c-mo" alt="">
+                <span style="margin-left: -5px">Ümit</span>
+                <i class="material-icons md-18 menu-icon-kucuk" >arrow_drop_down</i>
+                <i class="material-icons md-18 menu-icon-orta">add</i>
+            </div>
+
+        </aside>
+
+        <!-- Epostalar -->
+        <main>
+            <div class="ust-alt-menu">
+                <div class="sol-ikonlar">
+                    <i class="material-icons md-18 ust-alt-menu-icon">check_box_outline_blank</i>
+                    <i class="material-icons md-18 ust-alt-menu-icon-kucuk" >arrow_drop_down</i>
+                    <i class="material-icons md-18 ust-alt-menu-icon" >refresh</i>
+                    <i class="material-icons md-18 ust-alt-menu-icon" >more_vert</i>
+                </div>
+
+                <div class="sag-ikonlar">
+                    <span style="margin-right: 16px;">10 satırdan 1-10 arası</span>
+                    <i class="material-icons md-18 ust-alt-menu-icon-kucuk" >keyboard_arrow_left</i>
+                    <i class="material-icons md-18 ust-alt-menu-icon-kucuk" >keyboard_arrow_right</i>
+                </div>
+            </div>
+
+            <div class="mail-area">
+                <div class="kategoriler">
+                    <div class="kategori kirmizi">
+                        <div class="kirmizi-alt"></div>
+                        <i class="material-icons md-18 menu-icon kat-icon kirmizi">inbox</i>Birincil</div>
+                    <div class="kategori"><i class="material-icons md-18 menu-icon kat-icon">people</i>Sosyal</div>
+                    <div class="kategori"><i class="material-icons md-18 menu-icon kat-icon">sell</i><span style="margin-bottom: 12px">Tanıtımlar <span class="yeni-etiket">1 yeni</span></span><span class="yeni-metin">Twitter</span></div>
+                    <div class="kategori"><i class="material-icons md-18 menu-icon kat-icon">info</i>Güncellemeler</div>
+                    <div class="kategori"><i class="material-icons md-18 menu-icon kat-icon">forum</i>Forumlar</div>
+                </div>
+
+                <!-- İleti -->
+                <div class="mail okunmamis">
+                    <div class="kimden kalin">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon" style="color: #f8cb4d">label_important</i> 
+                        Bilim.org  
+                    </div>
+                    <div class="ileti">
+                        <span class="kategori-etiket">bilim@bilim.org</span>
+                        <span class="ileti-baslik kalin">Yazarlık başvurusu</span>
+                        <span class="ileti-onizleme">- Adı Soyad: Ümit Büyükyıldırım E-Posta: bilimorg@gmail.com Eğitim: Lisans...</span>
+                    </div>
+                    <div class="tarih">20:31</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail okunmamis">
+                    <div class="kimden kalin">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Bilim.org  
+                    </div>
+                    <div class="ileti">
+                        <span class="kategori-etiket">bilim@bilim.org</span>
+                        <span class="ileti-baslik kalin">Yazarlık başvurusu</span>
+                        <span class="ileti-onizleme">- Adı Soyad: Ümit Büyükyıldırım E-Posta: bilimorg@gmail.com Eğitim: Lisans...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail okunmamis">
+                    <div class="kimden kalin">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik kalin">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+                
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <!-- İleti -->
+                <div class="mail">
+                    <div class="kimden">
+                        <i class="material-icons md-18 ileti-icon">check_box_outline_blank</i>
+                        <i class="material-icons md-18 ileti-icon">star_outline</i>
+                        <i class="material-icons md-18 ileti-icon">label_important_outline</i> 
+                        Youtube  
+                    </div>
+                    <div class="ileti">
+                        <span class="ileti-baslik">Galaksinin Sesi, yorumunuzu beğendi</span>
+                        <span class="ileti-onizleme">- YouTube Logo Galaksinin Sesi, yorumunuzu beğendi Dreamers ile söyleşi...</span>
+                    </div>
+                    <div class="tarih">21 May</div>
+                </div>
+                <!-- İleti -->
+
+                <div class="alt">
+                    <div class="alt-sol">
+                        <progress value="15" max="100"></progress>
+                        <div class="yatay-kapsa">
+                            <span>15 GB'lık kotanın 2,25 GB'ı kullanılıyor</span>
+                            <span><i class="material-icons md-18 alt-icon">open_in_new</i></span>
+                        </div>
+                    </div>
+                    <div class="alt-orta">Şartlar · Gizlilik · Program Politikaları </div>
+                    <div class="alt-sag">
+                            <span>Son hesap etkinliği: 26 dakika önce</span>
+                            <span>Ayrıntılar</span>
+                    </div>
+                </div>
+
+            </div>
+            
+        </main>
+
+        <!-- Sağ menü -->
+        <div class="sag-menu">
+            <img src="https://www.gstatic.com/companion/icon_assets/calendar_2020q4_2x.png" alt="">
+            <img src="https://www.gstatic.com/companion/icon_assets/keep_2020q4v3_2x.png" alt="">
+            <img src="https://www.gstatic.com/companion/icon_assets/tasks2_2x.png" alt="">
+            <img src="https://www.gstatic.com/companion/icon_assets/contacts_2x.png" alt="">
+
+            <div class="alt-cizgi-50"></div>
+
+            <div class="dikey-ikonlar">
+                <i class="material-icons md-18 dikey-icon">add</i>
+                <i class="material-icons md-18 dikey-icon">chevron_right</i>
+            </div>
+        </div>
+    </div>
+
+</body>
+>>>>>>> 27baa7c7c661b9714aa5ca53bdb924602911fb6b
 </html>
