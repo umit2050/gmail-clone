@@ -1,0 +1,13 @@
+@use "variables" as *;
+
+body {
+    font-size: 16px;
+    background: $renk4;
+    }
+    
+.wrapper {
+    display: grid;
+    grid-template-columns: 256px auto 56px;
+    grid-template-rows: 64px auto;
+    height: 100vh;
+}

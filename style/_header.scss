@@ -1,0 +1,86 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+header {
+    grid-column: 1 / 4;
+    grid-row: 1 / 2;
+    border-bottom: 1px solid $renk1;
+    display: flex;
+}
+
+.logo {
+    @include flex-center;
+    width: 256px;
+    height: 64px;
+}
+
+.gmail-logo {
+    width: 109px;
+    height: 40px;
+    margin-left: 16px;
+}
+
+.menu-icon {
+    color: $renk2;
+    margin-left: 24px;
+}
+
+.top-right {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+
+.search {
+    @include flex-center;
+    flex-grow: 1;
+    max-width: 720px;
+}
+.searchbox {
+    width: 100%;
+    height: 46px;
+    background: $renk3; /* #f1f3f4; */
+    border: 0;
+    border-radius: 8px;
+    outline: 0;
+    font-family: $font;
+    font-size: 16px;
+    padding-left: 58px;
+    color: $renk5;
+
+    &:focus {
+        background: $renk4;
+        border: 1px solid $renk3;
+    }
+
+}
+
+.search-icons {
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    width: 720px;
+}
+
+.icon-baslangic {
+    position: absolute;
+    left: -7px;
+}
+.icon-son {
+    position: absolute;
+    right: 16px;
+}
+
+.settings {
+    @include flex-center;
+    justify-content: flex-end;
+    min-width: 300px;
+}
+
+.user-photo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 18px;
+    margin-left: 16px;
+}

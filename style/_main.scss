@@ -1,0 +1,253 @@
+@use "variables" as *;
+@use "mixins" as *;
+
+.menu-icon-kucuk {
+    color: $renk8;
+    font-size: 20px;
+    margin-left: 8px;
+}
+
+.menu-icon-orta {
+    color: $renk7;
+    font-size: 18px;
+    margin-left: 96px;
+}
+
+main {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.ust-alt-menu {
+    @include flex-center;
+    justify-content: space-between;
+    border-bottom: 1px solid $renk1;
+    height: 48px;
+}
+
+.sol-ikonlar {
+    @include flex-center;
+    width: 220px;
+    padding-left: 6px;
+}
+
+.sag-ikonlar {
+    @include flex-center;
+    width: 220px;
+    font-family: $font;
+    font-size: 12px;
+    color: $renk2;
+}
+
+.sag-ikonlar i {
+    color: $renk22;
+}
+
+.ust-alt-menu-icon {
+    color: $renk2;
+    margin-left: 10px;
+}
+
+.ust-alt-menu-icon-kucuk {
+    color: $renk2;
+    font-size: 20px;
+    margin-right: 16px;
+}
+
+.mail-area {
+    overflow-y: scroll;
+    height: 90%;
+}
+
+.kategoriler {
+    display: flex;
+    height: 56px;
+}
+
+.kategori {
+    @include flex-center;
+    flex: 1;
+    position: relative;
+    font-family: $font;
+    font-size: .875rem;
+    color: $renk2;
+    background: $renk4;
+    border-bottom: 1px solid $renk1;
+    position: relative;
+
+    &:hover {
+        background: $renk9;
+    }
+}
+
+.kategori .kirmizi {
+    color: $renk10;
+}
+
+.kategori:first-child {
+    color: $renk10;
+}
+
+.yeni-etiket {
+    background: $renk11;
+    font-size: 12px;
+    font-weight: bold;
+    color: $renk4;
+    border-radius: 3px;
+    padding: 1px 4px;
+    margin-left: 5px;
+}
+
+.yeni-metin {
+    position: absolute;
+    top: 36px;
+    left: 56px;
+    font-size: 12px;
+    color: $renk12;
+}
+
+.kirmizi-alt {
+    position: absolute;
+    bottom: 0;
+    width: 90%;
+    margin-left: 10px;
+    background: $renk10;
+    height: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.kat-icon {
+    margin: 0 16px;
+}
+
+.mail {
+    @include flex-center;
+    height: 40px;
+    font-family: $font;
+    font-size: .875rem;
+    color: $renk13;
+    border: 1px solid transparent;
+    border-bottom: 1px solid $renk1;
+
+    &:hover {
+        border: 1px solid $renk14;
+        box-shadow: 2px 2px 2px $renk15;
+    }
+}
+
+.okunmamis {
+    background: $renk4;
+
+    .sari {
+        color: $renk25;
+    }
+}
+
+.kimden {
+    @include flex-center;
+    width: 320px;
+}
+
+.ileti-icon {
+    color: $renk16;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.ileti-icon:first-child {
+    margin-left: 16px;
+}
+
+.ileti-icon:last-child {
+    margin-right: 10px;
+}
+
+.ileti {
+    flex-grow: 1;
+}
+
+.ileti-baslik {
+    color: $renk13;
+}
+
+.kalin {
+    font-weight: bold;
+}
+
+.ileti-onizleme {
+    color: $renk2;
+}
+
+.tarih {
+    text-align: right;
+    width: 80px;
+    margin-right: 16px;
+    font-size: .75rem;
+}
+
+.kategori-etiket {
+    background: $renk18;
+    color: $renk19;
+    font-size: .75rem;
+    border-radius: 3px;
+    font-weight: normal;
+    padding: 2px 3px;
+    margin-right: 3px;
+}
+
+.alt {
+    display: flex;
+    font-family: $font;
+    font-size: 12px;
+    color: $renk2;
+    margin-top: 40px;
+}
+
+.alt-sol {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin-left: 16px;
+}
+
+.yatay-kapsa {
+    @include flex-center;
+}
+
+.alt-icon {
+    font-size: 18px;
+    color: $renk21;
+}
+
+.alt-orta {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.alt-sag {
+    text-align: right;
+    width: 200px;
+    margin-right: 16px;
+}
+
+progress {
+    width: 100%;
+    height: 6px;
+    margin: 7px 0;
+    border: 0;
+    background: $renk14;
+    border-radius: 8px;
+
+    /* Firefox */
+    &::-moz-progress-bar {
+        background: $renk2;
+        border-radius: 8px;
+    }
+    
+    /* Chrome */
+    &::-webkit-progress-value {
+        background: $renk2;
+        border-radius: 8px;
+    }
+}
